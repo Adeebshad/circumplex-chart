@@ -1,6 +1,6 @@
 {
   "name": "superset-plugin-chart-circumplex",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Circumplex Chart Plugin using AntV",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -15,8 +15,8 @@
     "ts-types": "tsc --build",
     "test": "jest"
   },
-  "author": "Adeeb Anika",
-  "homepage": "https://github.com/Adeebshad/circumplex-chart",
+  "author": "Your Name",
+  "homepage": "https://github.com/your-github-username/superset-plugin-chart-rose",
   "bugs": "https://github.com/Adeebshad/circumplex-chart/issues",
   "repository": {
     "type": "git",
