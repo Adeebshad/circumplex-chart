@@ -15,7 +15,7 @@
     "ts-types": "tsc --build",
     "test": "jest"
   },
-  "author": "Adeeb & Anika",
+  "author": "Adeeb Anika",
   "homepage": "https://github.com/Adeebshad/circumplex-chart",
   "bugs": "https://github.com/Adeebshad/circumplex-chart/issues",
   "repository": {
