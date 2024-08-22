@@ -19,12 +19,8 @@ under the License.
 
 ## @superset-ui/plugin-chart-circumplex
 
-[![Version](https://img.shields.io/npm/v/@superset-ui/plugin-chart-pivot-table.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/plugin-chart-pivot-table)
-
 This plugin provides Circumplex for Superset.
 
-If you change the logic of this plugin, please update
-[`pivot_table`](https://github.com/apache/superset/blob/master/superset/charts/post_processing.py).
 
 ### Usage
 
@@ -32,7 +28,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import { Rose2ChartPlugin }  from 'superset-plugin-chart-rose2';
+import { Rose2ChartPlugin }  from 'superset-plugin-chart-circumplex';
 
 new Rose2ChartPlugin().configure({ key: 'rose2_chart' });
 ```
