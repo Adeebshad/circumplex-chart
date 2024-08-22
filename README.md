@@ -40,7 +40,7 @@ new CircumplexChartPlugin().configure({ key: 'circumplex_chart' });
 ├── README.md
 ├── tsconfig.json
 ├── src
-│   ├── PivotTableChart.tsx
+│   ├── CircumplexChart.tsx
 │   ├── images
 │   │   └── thumbnail.png
 │   ├── index.ts

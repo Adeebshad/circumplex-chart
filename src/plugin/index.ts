@@ -35,7 +35,7 @@ export default class CircumplexChartPlugin extends ChartPlugin { // Rename 'Liqu
     super({
       buildQuery,
       controlPanel,
-      loadChart: () => import('../RoseChart'), // Use the renamed 'RoseChart'
+      loadChart: () => import('../CircumplexChart'),
       metadata,
       transformProps,
     });
