@@ -8,7 +8,7 @@ import example2 from '../images/example2.png';
 import example3 from '../images/example3.png';
 import example4 from '../images/example4.png';
 
-export default class RoseChartPlugin extends ChartPlugin { // Rename 'LiquidChartPlugin' to 'RoseChartPlugin'
+export default class CircumplexChartPlugin extends ChartPlugin { // Rename 'LiquidChartPlugin' to 'RoseChartPlugin'
   /**
    * The constructor is used to pass relevant metadata and callbacks that get
    * registered in respective registries that are used throughout the library

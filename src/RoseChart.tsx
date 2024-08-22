@@ -11,8 +11,8 @@ const Styles = styled.div<{ height: number; width: number }>`
   width: ${({ width }) => width}px;
 `;
 
-const RoseChart: React.FC<RoseProps> = (props) => {
-  const { data,xField, yField, seriesField, radius, legendPosition, height, width } = props;
+const CircumplexChart: React.FC<RoseProps> = (props) => {
+  const { data,xField, yField, seriesField, height, width } = props;
 
   //const data = [
   //  {
@@ -67,4 +67,4 @@ const RoseChart: React.FC<RoseProps> = (props) => {
   );
 };
 
-export default RoseChart;
+export default CircumplexChart;

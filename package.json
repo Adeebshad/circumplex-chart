@@ -1,6 +1,6 @@
 {
   "name": "superset-plugin-chart-circumplex",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "Circumplex Chart Plugin using AntV",
   "main": "lib/index.js",
   "module": "esm/index.js",

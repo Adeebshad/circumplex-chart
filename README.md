@@ -28,9 +28,9 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import { Rose2ChartPlugin }  from 'superset-plugin-chart-circumplex';
+import { CircumplexChartPlugin }  from 'superset-plugin-chart-circumplex';
 
-new Rose2ChartPlugin().configure({ key: 'rose2_chart' });
+new CircumplexChartPlugin().configure({ key: 'circumplex_chart' });
 ```
 
 ### File structure generated
